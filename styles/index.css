@@ -1,0 +1,72 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: BentonSans, Arial, Noto Sans, sans-serif;
+}
+.top-navbar {
+  width: 100vw;
+  height: 30vh;
+  background-color: #0398dc;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.top-navbar > .scorecards {
+  width: 30%;
+  height: 80px;
+  border: 1px solid black;
+}
+.sub-top-navbar {
+  width: 100vw;
+  height: 8vh;
+  background-color: #03a9f4;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+.sub-top-navbar > div:nth-child(1) {
+  /* width: 200px; */
+  border: 1px solid red;
+  margin: 0 60px;
+  display: flex;
+  flex-basis: 150px;
+  padding: 10px 0;
+}
+.sub-top-navbar > div:nth-child(1) > img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.sub-top-navbar > div:nth-child(2) {
+  /* width: 500px; */
+  border: 1px solid red;
+  /* height: 100%; */
+  display: flex;
+  flex-basis: 525px;
+  justify-content: space-between;
+}
+.sub-top-navbar > div:nth-child(2) > button {
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  padding: 0 8px;
+}
+.sub-top-navbar > div:nth-child(2) > button:hover {
+  background-color: #0398dc;
+}
+.sub-top-navbar > div:nth-child(3) {
+  width: 300px;
+  border: 1px solid red;
+  height: 100%;
+  display: flex;
+  margin-left: 140px;
+}
