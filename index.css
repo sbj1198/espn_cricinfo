@@ -1,0 +1,98 @@
+#top_navbar {
+    /* height: 250px; */
+    background-color: rgb(3, 152, 220);
+    font-family: BentonSans-Bold, Arial, Noto Sans, sans-serif;
+}
+
+#match_type {
+    width: 50vw;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+    line-height: 1.33;
+    font-size: 13px;
+}
+
+#cards {
+    /* position: relative; */
+    width: 80vw;
+    /* border: 1px solid; */
+    /* height: 200px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15px;
+}
+
+#cards>div {
+    width: 24%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.tournament {
+    font-size: 10px;
+    margin-left: 3%;
+}
+
+.teams {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+
+
+}
+
+img {
+    width: 1.5rem;
+    margin-right: 8px;
+}
+
+.flag_team {
+    display: flex;
+    font-size: .75rem;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.score {
+    margin-right: 10px;
+    font-size: .8rem
+
+}
+
+.status {
+    font-size: .75rem;
+    border-bottom: 1px solid rgb(190, 181, 181);
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+.board{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-size: .8rem;           
+    margin-top: -20px;
+    margin-left: 10px;
+    font-weight: 550;
+}
+button{
+    position: absolute;
+    top: 12%;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+}
+#rightBtn{
+    right: 9.5%;
+}
+#leftBtn{
+    left: 9.5%;
+}
