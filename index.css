@@ -1,39 +1,67 @@
-#top_navbar {
-    /* height: 250px; */
+.product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
     background-color: rgb(3, 152, 220);
-    font-family: BentonSans-Bold, Arial, Noto Sans, sans-serif;
 }
 
-#match_type {
-    width: 50vw;
-    margin-left: 10vw;
+.product-container {
+    padding: 0 10vw;
     display: flex;
-    justify-content: space-between;
-    color: white;
-    font-weight: 500;
-    line-height: 1.33;
-    font-size: 13px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
 }
 
-#cards {
-    /* position: relative; */
-    width: 80vw;
-    /* border: 1px solid; */
-    /* height: 200px; */
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    margin-top: -15px;
+.product-container::-webkit-scrollbar {
+    display: none;
 }
 
-#cards>div {
-    width: 24%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+.product-card {
+    flex: 0 0 auto;
+    width: 292px;
+    margin-right: 20px;
     background-color: white;
-    border-radius: 10px;
-
+    border-radius: 12px;
 }
+
+/* button{
+position: absolute;
+top: 40%;
+border-radius: 50%;
+border: none;
+font-size: 18px;
+}
+.nxt-btn{
+right: 9.5%;
+}
+.pre-btn{
+left: 9.5%;
+} */
+
+.pre-btn,
+.nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%); */
+    background-color: rgb(3, 152, 220);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn {
+    left: 0;
+}
+
+.nxt-btn {
+    right: 0;
+}
+
 
 .tournament {
     font-size: 10px;
@@ -65,7 +93,6 @@ img {
 .score {
     margin-right: 10px;
     font-size: .8rem
-
 }
 
 .status {
@@ -74,25 +101,26 @@ img {
     margin-left: 10px;
     padding-bottom: 5px;
 }
-.board{
+
+.board {
     display: flex;
     width: 60%;
     justify-content: space-between;
-    font-size: .8rem;           
+    font-size: .8rem;
     margin-top: -20px;
     margin-left: 10px;
     font-weight: 550;
 }
-button{
-    position: absolute;
-    top: 12%;
-    border-radius: 50%;
-    border: none;
-    font-size: 18px;
-}
-#rightBtn{
-    right: 9.5%;
-}
-#leftBtn{
-    left: 9.5%;
+
+#match_type {
+    width: 100%;
+    /* margin-left: 10vw; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.33;
+    font-size: 13px;
+    background-color: rgb(3, 152, 220);
 }
