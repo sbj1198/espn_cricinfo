@@ -7,45 +7,255 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/news.css">
 </head>
+<style>
+    #ad{
+    border: 1px solid white;
+    width: 63vw;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+#ad>img{
+    width: 100%;
+}
+
+#container{
+    border: 3px solid white;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
+    margin-top: 2vw;
+}
+
+#leftSidebar{
+    border: 1px solid white;
+    width: 80vw;
+    padding-top: 1vw;
+    border-radius: 1vw;
+    /* height: 200vw; */
+    margin-top: 2vw;
+    height: fit-content;
+    /* position: absolute; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#leftSidebar>div{
+    padding: 1.5vw 1vw;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 1vw;
+}
+
+#rightSidebar{
+    /* border: 1px solid red; */
+    width: 18vw;
+    margin-left:2vw;
+    /* height: 4000px; */
+    border-radius: 1vw;
+    height: fit-content;
+    /* padding: 2vw 2vw; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h3{
+   color:black;
+   font-size: 40px;
+   margin-left: 2vw;
+}
+
+h1{
+    font-size: 29px;
+}
+
+.p1{
+    font-size: 18px;
+}
+
+#akash{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#akash>div{
+    border: 1px solid white;
+    display: flex;
+}
+
+#akash1>img{
+    border: 1px solid white;
+    border-radius: 5vw;
+    width: 3vw;
+}
+
+#akash2{
+    border: 1px solid white;
+    margin-left: 0.3vw;
+}
+
+.p2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p3{
+    font-size: 15px;
+    color: gray;
+    margin-top: -0.5vw;
+}
+
+#akash3>img{
+    border: 1px solid white;
+    border-radius: 5vw;
+    width: 1.8vw;
+}
+
+#akash4>img{
+    border: 1px solid white;
+    border-radius: 5vw;
+    width: 1.8vw;
+    margin-left: 0.3vw;
+}
+
+#img1{
+  border: 3px solid white;
+  width: 100%;
+}
+
+#img1>img{
+width: 100%;
+border-top-left-radius: 1vw;
+border-top-right-radius: 1vw;
+}
+
+.p4{
+font-size: 18px;
+padding: 1vw 2vw;
+padding-left: 2.1vw;
+margin-top: -0.5vw;
+color: white;
+width: 93%;
+border-bottom-left-radius: 1vw;
+border-bottom-right-radius: 1vw;
+background-color: #000000;
+}
+
+#content{
+margin-top: 2vw;
+border-radius: 1vw;
+/* border: 3px solid blue; */
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#spon{
+margin-top: 3vw;
+}
+
+#spon>p{
+color: gray;
+font-weight: bold;
+}
+
+#sponContent{
+display: flex;
+gap: 1vw;
+}
+
+#sponContent>div{
+border: 1px solid white;
+width: 33%;
+}
+
+#sponContent>div>img{
+width: 100%;
+}
+
+h5{
+color: gray;
+margin-top: -1vw;
+}
+
+#ravi{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: white;
+margin-top: -14vw;
+position: absolute;
+/* z-index: 100; */
+/* display: none; */
+}
+
+#ravi>div{
+display: flex;
+border: 1px white;
+width: 15vw;
+}
+
+#ravi>div>img{
+width: 10%;
+height: 10%;
+}
+
+#ravi>div>p{
+font-size: 20px;
+margin-left: 5%;
+margin-top: -1%;
+}
+
+#ravi1>div{
+border: 1px solid black;
+width: 12vw;
+border-radius: 1vw;
+padding-left: 1vw;
+background-color: #000000;
+color: white;
+font-weight: bold;
+margin-top: -4vw;
+position: absolute;
+}
+
+#leftSidebar>div>div>img{
+width: 100%;
+}
+
+#leftSidebar>div{
+    display: flex;
+    gap: 1vw;
+}
+
+#content>div{
+   border: 1px solid white;
+   margin-top: 1vw;
+   margin-left: -8vw;
+   width: fit-content;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#content>div>img{
+   width: 18vw;
+}
+
+#lastC{
+    width: 100vw;
+    margin: auto;
+    margin-top: 5vw;
+    display: flex;
+    justify-content:space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+</style>
 <body>
-    <div id="ad"><img src="https://tpc.googlesyndication.com/simgad/10926761020657163993?" alt=""></div>
+    <div id="ad"><img src="https://tpc.googlesyndication.com/simgad/11321537340682502286?" alt=""></div>
     <div id="container">
           <div id="leftSidebar">
-
+               <h3>LATEST NEWS</h3>
           </div>
           <div id="rightSidebar">
-            <a href="./news1.html"> <h3>NEWS</h3></a>
-             <h1>Kohli's slump: two factors that might have had a role to play</h1>
-             <p class="p1">His current rough patch has lasted a lot longer than anyone might have imagined it might</p>
-                <div id="akash">
-                <div>
-                    <div id="akash1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/105900/105930.gif" alt="">
-                    </div>
-                    <div id="akash2">
-                         <p class="p2">Aakash Chopra</p>
-                         <p class="p3">29-Aug-2022</p>
-                    </div>
-                </div>
-                <div>
-                    <div id="akash3">
-                        <div id="ravi"></div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQvHU_aDBGg-SRIrEuI9462xSaxumD9r-Rw&usqp=CAU" alt="">
-                    </div>
-                    <div id="akash4">
-                        <div id="ravi1"></div>
-                        <img src="data:image/png;base64,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" alt="">
-                </div>
-                </div>
-                </div>
-               <div id="img1">
-                <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_70/lsci/db/PICTURES/CMS/342600/342663.4.jpg" alt="">
-               </div>
-               <p class="p4">For most of his career Kohli has walked an elevated path, but now he must walk one that lesser mortals find themselves on more frequently  •  AFP via Getty Images</p>
-              <div id="content"></div>
-              <div id="spon">
+            
+              <div id="content"> </div>
+              <!-- <div id="spon">
                 <p>Sponsored Headlines</p>
                 <div id="sponContent"></div>
-              </div>
+              </div> -->
           </div>
     </div>
     <div id="ad"><img src="https://tpc.googlesyndication.com/simgad/10926761020657163993?" alt=""></div>
@@ -59,7 +269,7 @@
 </html>
 
 <!-- pop up -->
-<script>
+<!-- <script>
 
   let div50=document.createElement("div");
   let p50=document.createElement("p");
@@ -120,96 +330,46 @@
   })
 
 //   document.getElementById("ravi").append(div51,div52,div53,div54,div55)
-</script>
+</script> -->
 
 <!-- News Content -->
 <script>
     let content=document.getElementById("content");
-    let p1=document.createElement("p");
-    p1.setAttribute("class","p1");
-    p1.innerText="Form is temporary, class is permanent. And Kohli is class.He isn't out of form. Just short of runs.It's not that he isn't scoring runs, it's just that the century hasn't come. Anyway, it is just round the corner. This series. This tournament. This match.The chatter started as the wait became longer for the elusive 71st international hundred, but now it has reached a point where the conversation is no longer just about the next century anymore."
-  
-    let p2=document.createElement("p");
-    p2.setAttribute("class","p1");
-    p2.innerText="There's no doubt in anyone's mind about Virat Kohli's class and his skills, and even if he doesn't score another run in international cricket from here on, he will still be regarded as one of the greatest to have played the game. A man who did superhuman things and mastered all three formats like almost no others."
+          
+          let D1q=document.createElement("div");
+          let im1q=document.createElement("img");
+          im1q.src="https://secure-ds.serving-sys.com/resources/PROD/asset/144375/IMAGE/20220809/Rbi_ENG_1_300x250_8aug22_72879983397192489.jpg"
+          D1q.append(im1q)
 
-    let p3=document.createElement("p");
-    p3.setAttribute("class","p1");
-    p3.innerText="Still, there's also no hiding from the fact that the bat that worked like a magic wand isn't obeying his commands anymore. There are more misses than hits. The aura of invincibility has faded and his presence doesn't instil the same fear in bowlers' minds as it used to earlier."
+          
+          let D2q=document.createElement("div"); 
+          let im2q=document.createElement("img");
+          im2q.src="https://tpc.googlesyndication.com/simgad/15693210795370267328?"
+          D2q.append(im2q)
 
-    let p4=document.createElement("p");
-    p4.setAttribute("class","p1");
-    p4.innerText="But let's be honest: this has happened to everyone who has played the game before him. That is why you are always remembered for how you lived and not for how you died.Okay, I shall now leave the metaphors behind and focus on the issue at hand."
 
-    let p5=document.createElement("p");
-    p5.setAttribute("class","p1");
-    p5.innerText="Kohli hasn't scored enough runs lately. It has been a rough patch that has lasted a lot longer than any of us thought it might - Kohli included, perhaps. There are dozens of theories floating around about what might have gone wrong and how and when this dreadful spell might end. I am guilty of indulging in a couple of them, which I shall elaborate on later in this article."
+          let D3q=document.createElement("div");
+          let im3q=document.createElement("img");
+          im3q.src="https://secure-ds.serving-sys.com/resources/PROD/asset/144375/IMAGE/20220809/Rbi_ENG_1_300x250_8aug22_72879983397192489.jpg"
+          D3q.append(im3q)
 
-    let p6=document.createElement("p");
-    p6.setAttribute("class","p1");
-    p6.innerText="When a player goes through a rough patch, the conversation has only two places to go - is it a technical problem or a mental one? In my limited experience, both are intertwined; often one leads to the other and nobody can determine what came first, chicken or egg."
 
-    let p7=document.createElement("p");
-    p7.setAttribute("class","p1");
-    p7.innerText="Here's a cycle of events: a slight technical glitch creeps into your game unknowingly but you ignore its presence because you're able to handle it for a while with a superior (read, positive) mindset. Until it becomes too much to handle and you lose your rhythm, which results in the mindset not being the same anymore. You then start introspecting and doubt becomes a constant companion. Such a chain might start with a cocky mindset that allows a mistake to creep in in the first place too. Anyway, you get the drift."
+          let D4q=document.createElement("div");
+          let im4q=document.createElement("img");
+          im4q.src="https://tpc.googlesyndication.com/simgad/13683194396473605559?"
+          D4q.append(im4q)
 
-    let p8=document.createElement("p");
-    p8.setAttribute("class","p1");
-    p8.innerText="Then you start working on both aspects. Technical first, because it's tangible, and then the mindset: positive thoughts, visualisation, and so on. Eventually you find a way out of the hole… for a while, and then you don't. This is a basic cycle in a cricketer's career, repeated many times over, and ending in a final goodbye."
 
-    let p9=document.createElement("p");
-    p9.setAttribute("class","p1");
-    p9.innerText="I'm in no way suggesting that Kohli's story is remotely close to its final pages. In fact, considering all that he has achieved, his commitment to his fitness and his fighting spirit, the chances that he will be able to produce an encore are high. But it's also important that it happens soon enough, for the sake of his and India cricket's immediate future. After all, there is a World Cup starting in about eight weeks."
+          let D5q=document.createElement("div");
+          let im5q=document.createElement("img");
+          im5q.src="https://tpc.googlesyndication.com/simgad/3225541195986836162? "
+          D5q.append(im5q)
 
-    let p10=document.createElement("p");
-    p10.setAttribute("class","p1");
-    p10.innerText="So is it a technical problem that Kohli is facing? Is it his commitment to the long front-foot stride (the same commitment that got him thousands of international runs) or is it the front foot going too far across now, making him prod at balls outside off? (Remember, Ricky Ponting's front foot went a lot further across.) Or is it that he doesn't have a strong back-foot game through the off side and bowlers have finally figured it out?"
-
-    let p11=document.createElement("p");
-    p11.setAttribute("class","p1");
-    p11.innerText="Graeme Smith didn't cover-drive much. Virender Sehwag didn't pull or hook. And there are many more such examples. But these limitations did not stop those players from becoming very successful international cricketers. Yes, Kohli is edging more frequently than he used to, but is it the only mode of his dismissals? Once again, I'm not suggesting that there isn't a technical issue - nobody is perfect - but the length of this dry spell suggests there's more to it."
-
-    let p12=document.createElement("p");
-    p12.setAttribute("class","p1");
-    p12.innerText="There are two things that have happened in the last two years that had not happened before with Kohli. There were long disruptions in cricket due to Covid, and also, Kohli expressed a desire to take breaks, which he did not do when he was at the peak of his powers, when he more or less wanted to play every day, if that was possible. Bio-bubble fatigue is real and it drains players in ways they have never experienced before, and long breaks are things most current players don't know how to handle either."
-
-    let p13=document.createElement("p");
-    p13.setAttribute("class","p1");
-    p13.innerText="For the longest time, the only way to get back into form for a top player was to play as much cricket as possible, even if it meant playing at a slightly lower level. Everyone went through that drill till about a decade ago. But nowadays, poor form is followed by breaks from the game. I'm not an expert and won't pretend to be one but we really don't know whether that's the best approach towards regaining form and/or confidence. Times have changed and ways of dealing with issues like this might have changed too."
-
-    let p14=document.createElement("p");
-    p14.setAttribute("class","p1");
-    p14.innerText="The second thing that changed with Kohli - and it only happened after he had not scored enough for a while - was his approach to starting new innings. The foundation of Kohli's batting was absolute commitment to his method, in a manner that was almost robotic. But in the last couple of years he seems to have tried various approaches. So much so that you hardly remember what his foolproof old method was. He has gone very hard and he has gone very cautious too. I'm not saying that he has not followed his tried-and-tested method at all but that the deviations from that method have been too frequent."
-
-    let p15=document.createElement("p");
-    p15.setAttribute("class","p1");
-    p15.innerText="The problem isn't as grave if you keep getting out for single-digit scores. In those cases you would be able to identify the issue a lot easier. But if you're getting starts and are committing mistakes much later in the innings (and very often at that), you fail to identify the problem. It's not the first ball outside off that you've nicked but the 70th or the 100th, and that points towards it being more a mental problem. Of course it's a technical flaw but it's the mental discipline, or lack of it, that triggers that flawed response."
-
-    let p16=document.createElement("p");
-    p16.setAttribute("class","p1");
-    p16.innerText="In theory cricket is a team sport, but you are on your own more often than not. While you're a part of the team's successes and defeats, you also inhabit an alternative universe of your own performances. And it gets very lonely there."
-
-    let p17=document.createElement("p");
-    p17.setAttribute("class","p1");
-    p17.innerText="For much of his career Kohli walked a path less travelled - the one that took him to the very top. Now he has to walk a path that almost everyone else has travelled (including himself early in his career). This path might lead him back to the old glory days or he might not achieve the same heights ever again."
-
-    let p18=document.createElement("p");
-    p18.setAttribute("class","p1");
-    p18.innerText="It's a disturbing thought but one that must be considered nevertheless, for that's the only way to live a liberated life. The enjoyment of playing the sport does not lie in coming out all guns blazing or defending endlessly but in playing at your own pace; the pace that you set for yourself without thinking about the outcome, for that's what you were most comfortable with. That's when every ball becomes an event - the most important event of your life at that point of time. And that's when you become one with the sport itself."
-
-    let p19=document.createElement("p");
-    p19.setAttribute("class","p1");
-    p19.innerText="The current Indian team set-up is ideal for Kohli to be liberated from expectations, including some of his own, because the unwavering focus is on the team outcome. This set-up won't judge him for the fifties and hundreds he scores or doesn't but on how he has been able to contribute to upholding the team philosophy, and that's a lovely place to be in."
-
-    let p20=document.createElement("p");
-    p20.setAttribute("class","p1");
-    p20.innerText="Kohli has paid a huge price for his own success, which has included not only others judging him by the lofty standards that he set but also Kohli himself trying to replicate the player he was three years ago. You have almost been able to touch and feel his struggle, and there isn't a cricket lover who hasn't wished for it to end. Sport should be a source of joy, not agony, for player and viewer alike. We hope that the break he has taken does the trick and the bat becomes his wand again."
-
-    content.append(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20);
+    content.append(D1q,D2q,D3q,D4q,D5q);
 </script>
 
 <!-- Sponsored HeadLines -->
-<script>
+<!-- <script>
      let sponContent=document.getElementById("sponContent");
      let div1=document.createElement("div");
      let img1=document.createElement("img");
@@ -243,7 +403,7 @@
 
     
 
-</script>
+</script> -->
 
 <!-- LeftSideBar -->
 <script>
@@ -253,6 +413,8 @@
           let leftSidebar=document.getElementById("leftSidebar");
           
           let D1=document.createElement("div");
+          let D1a=document.createElement("div");
+          let D1b=document.createElement("div");
           let r1=document.createElement("p");
           r1.innerText="Kohli's slump: two factors that might have had a role to play"
           r1.setAttribute("class","p2")
@@ -260,8 +422,10 @@
           s1.innerText="1h ago • Akash Chopra";
           s1.setAttribute("class","p3")
           let im1=document.createElement("img");
-          im1.src="https://secure-ds.serving-sys.com/resources/PROD/asset/144375/IMAGE/20220809/Rbi_ENG_1_300x250_8aug22_72879983397192489.jpg"
-          D1.append(r1,s1,im1)
+          im1.src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_70/lsci/db/PICTURES/CMS/342600/342663.4.jpg"
+          D1a.append(im1)
+          D1b.append(r1,s1)
+          D1.append(D1a,D1b)
 
           D1.addEventListener("click",function (){
               console.log("yes")
@@ -272,6 +436,8 @@
     // NEWS 2
           
           let D2=document.createElement("div");
+          let D2a=document.createElement("div");
+          let D2b=document.createElement("div");
           let r2=document.createElement("p");
           r2.innerText="VVS Laxman named India's interim head coach for Asia Cup"
           r2.setAttribute("class","p2")
@@ -279,8 +445,10 @@
           s2.innerText="3h ago • Akash Chopra";
           s2.setAttribute("class","p3")
           let im2=document.createElement("img");
-          im2.src="https://tpc.googlesyndication.com/simgad/13683194396473605559?"
-          D2.append(r2,s2,im2)
+          im2.src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_70/lsci/db/PICTURES/CMS/342200/342229.4.jpg"
+          D2a.append(im2)
+          D2b.append(r2,s2)
+          D2.append(D2a,D2b)
 
           D2.addEventListener("click",function (){
               console.log("yes")
@@ -291,6 +459,8 @@
     // NEWS 3
 
           let D3=document.createElement("div");
+          let D3a=document.createElement("div");
+          let D3b=document.createElement("div");
           let r3=document.createElement("p");
           r3.innerText="Posers for India: The same old top three? Pant or Karthik, or both?"
           r3.setAttribute("class","p2")
@@ -298,8 +468,10 @@
           s3.innerText="4h ago • Akash Chopra";
           s3.setAttribute("class","p3")
           let im3=document.createElement("img");
-          im3.src="https://secure-ds.serving-sys.com/resources/PROD/asset/144375/IMAGE/20220809/Rbi_ENG_1_300x250_8aug22_72879983397192489.jpg"
-          D3.append(r3,s3,im3)
+          im3.src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_70/lsci/db/PICTURES/CMS/334400/334450.4.jpg"
+          D3a.append(im3)
+          D3b.append(r3,s3)
+          D3.append(D3a,D3b)
 
           D3.addEventListener("click",function (){
               console.log("yes")
@@ -310,6 +482,8 @@
     // NEWS 4
 
           let D4=document.createElement("div");
+          let D4a=document.createElement("div");
+          let D4b=document.createElement("div");
           let r4=document.createElement("p");
           r4.innerText="Chris Lynn signs 11-game Adelaide Strikers BBL deal to split time with ILT20"
           r4.setAttribute("class","p2")
@@ -317,8 +491,10 @@
           s4.innerText="6h ago • Akash Chopra";
           s4.setAttribute("class","p3")
           let im4=document.createElement("img");
-          im4.src="https://tpc.googlesyndication.com/simgad/13683194396473605559?"
-          D4.append(r4,s4,im4)
+          im4.src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_70/lsci/db/PICTURES/CMS/315100/315101.4.jpg"
+          D4a.append(im4)
+          D4b.append(r4,s4)
+          D4.append(D4a,D4b)
 
           D4.addEventListener("click",function (){
               console.log("yes")
@@ -329,6 +505,8 @@
      // NEWS 5
 
           let D5=document.createElement("div");
+          let D5a=document.createElement("div");
+          let D5b=document.createElement("div");
           let r5=document.createElement("p");
           r5.innerText="Scenes from India's training session - Kohli-Babar bromance, and intense nets in Dubai heat"
           r5.setAttribute("class","p2")
@@ -336,8 +514,10 @@
           s5.innerText="9h ago • Akash Chopra";
           s5.setAttribute("class","p3")
           let im5=document.createElement("img");
-          im5.src="https://tpc.googlesyndication.com/simgad/3225541195986836162? "
-          D5.append(r5,s5,im5)
+          im5.src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_70/lsci/db/PICTURES/CMS/344600/344698.4.jpg"
+          D5a.append(im5)
+          D5b.append(r5,s5)
+          D5.append(D5a,D5b)
 
           D4.addEventListener("click",function (){
               console.log("yes")
@@ -347,4 +527,3 @@
           leftSidebar.append(D1,D2,D3,D4,D5);
 
 </script>
-
