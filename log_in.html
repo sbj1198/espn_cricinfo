@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderwins Cricket</title>
+        <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
+    <link rel="stylesheet" href="styles/log_in.css">
+    <!-- <link rel="stylesheet" href="styles/index.css"> -->
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="parent">
+        <div id="part1">
+            <div class="img">
+                <img src="https://espn.wonderwins.com/assets/images/logo.png" alt="">
+            </div>
+            <button onclick="Email()">
+                Login with Email
+            </button>
+            <button onclick="Mobile_Number()">
+                Login with Mobile Number
+            </button>
+            <p>
+                <span>
+                    Don't Have An Account?
+                </span>
+                <a href="signup.html">Sign Up</a>
+            </p>
+            <p>
+                Free Daily Fantasy Cricket game powered by <br>
+                WonderWins
+            </p>
+        </div>
+    
+        <div id="part2"></div>
+    </div>
+</body>
+</html>
+<script src="scripts/log_in.js"></script>
+<script type="module">
+    let Part2 = document.getElementById("part2");
+    import part2  from "./scripts/part2.js"
+    Part2.innerHTML = part2
+</script>
+
+<script type="module">
+    // let navbar = document.getElementById("navbar");
+    // import subtopnavbar from "./scripts/subtopnavbar.js"
+</script>
