@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderwins Cricket</title>
+        <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
+    <link rel="stylesheet" href="styles/Profile.css">
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="parent">
+        <div id="part1">
+                <h1>
+                    Almost Done
+                </h1>
+                <p>
+                    Your team name can never be edited <br>
+                    Set it wisely
+                </p>
+                <h2>Profile Info</h2>
+                <input type="text" placeholder="Your Team_name" id="team_name">
+                <p class="p">Team Name Can't Be Changed Later, Set It Wisely</p>
+
+                <input type="text" placeholder="Enter Your Name" id="name">
+                <p class="p">Enter your name as per Id Card/Name in your bank account</p>
+                <select id="state">
+                    <option value="">Select Your State</option>
+                    <option value="AP">Andhra Pradesh</option>
+                    <option value="An_P">Arunanchal Pradesh</option>
+                    <option value="Bh">Bihar</option>
+                    <option value="Ch">Chhatisgarh</option>
+                    <option value="G">Goa</option>
+                    <option value="Gj">Gujrat</option>
+                    <option value="Hr">Haryana</option>
+                    <option value="Hp">Himanchal Pradesh</option>
+                    <option value="Jh">Jharkhand</option>
+                    <option value="kt">Karnataka</option>
+                    <option value="Kr">Kerala</option>
+                    <option value="Mp">Madhya Pradesh</option>
+                    <option value="Mh">Maharashtra</option>
+                    <option value="Mn">Manipur</option>
+                    <option value="Mgh">Meghalaya</option>
+                    <option value="Mz">Mizoram</option>
+                    <option value="Pj">Punjab</option>
+                    <option value="Rj">Rajasthan</option>
+                    <option value="Td">Tamil Nadu</option>
+                    <option value="Tr">Tripura</option>
+                    <option value="Up">Uttar Pradesh</option>
+                    <option value="Uk">Uttrakhand</option>
+                    <option value="Wb">West Bengal</option>
+                </select>
+                <p class="p">Residents from the State Assam, Nagaland Odisa, Sikkim & Telangana <br>
+                    are not eligible to play.
+                </p>
+                <button id="Play" onclick="Play()">Let's Play</button>
+        </div>
+    
+        <div id="part2">
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="scripts/Profile.js"></script>
+<script type="module">
+    let Part2 = document.getElementById("part2");
+    import part2  from "./scripts/part2.js"
+    Part2.innerHTML = part2
+</script>
