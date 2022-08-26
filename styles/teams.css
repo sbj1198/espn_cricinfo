@@ -1,0 +1,72 @@
+#parent{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+     width: 95%;
+     margin: auto;
+ }
+ #parent>div{
+    cursor: pointer;
+     display: flex;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     margin-top: 10px;
+ }
+ #popu{
+     width: 95%;
+     height: 15px;
+     padding-bottom: 25px;
+     margin: auto;
+      border-radius: 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+ #popu>p{
+  margin-left: 10px;  
+  font-size: 18px; 
+  font-weight: bold;
+ }
+ .logo{
+     width: 15%;
+     margin-left:35px;
+ }
+ #parent>div>h4{
+     margin-left: 15px;
+     font-size: 18px;
+ }
+
+
+
+
+
+@media all and (min-width:481px) and (max-width:768px){
+
+#parent{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 90%;
+margin: auto;
+gap: 20px;
+}
+}
+@media all and (min-width:100px) and (max-width:480px){
+#parent{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+width: 90%;
+margin: auto;
+gap: 20px;
+}
+
+
+}
+
+
+#footer{
+width: 95%;
+display: flex;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-left: 15px;
+margin-top: 7px;
+}
+#sp{
+margin-left: 14%;
+margin-top: -2px;
+}
