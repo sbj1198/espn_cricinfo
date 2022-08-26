@@ -1,0 +1,147 @@
+
+.product-card1 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.tournament1 {
+    font-size: .9rem;
+    margin-left: 4%;
+}
+
+.teams1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+
+
+}
+
+.team-img1 {
+    width: 3rem;
+    margin-right: 20px;
+}
+
+.flag_team1 {
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 2vw;
+}
+
+.score1 {
+    margin-right: 2vw;
+    font-size: 1.2rem
+}
+
+.status1 {
+    font-size: 1rem;
+    border-bottom: 1px solid rgb(190, 181, 181);
+    margin-left: 2vw;
+    padding-bottom: 5px;
+}
+
+.board1 {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin-top: -20px;
+    margin-left: 2vw;
+    font-weight: 550;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+}
+table img{
+    width: 25px;
+}
+.last-perfo{
+    display: flex;
+    justify-content: space-around;
+}
+.shortcut{
+    display: flex;
+    justify-content: space-around;
+}
+.ads_sec{
+display: flex;
+justify-content: space-between;
+}
+.ads_sec img{
+    width: 25vw;
+}
+.adInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.ads_sec2{
+    display: flex;
+    justify-content: space-between;
+    }
+    .ads_sec2 img{
+        width: 16.5vw;
+    }
+    #adDiv {
+        width: 70%;
+        border: 1px solid;
+        margin: auto;
+    }
+
+    #adDiv img {
+        width: 100%;
+    }
+
+    #main-page {
+        width: 80%;
+        border: 1px solid;
+        height: 2000px;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #main-page>div:nth-child(1) {
+        width: 68%;
+        border: 1px solid red;
+        height: 2000px;
+    }
+
+    #main-page>div:nth-child(2) {
+        width: 28%;
+        border: 1px solid red;
+        height: 2000px;
+    }
+
+    #custom-div {
+        width: 100%;
+        height: 200px;
+        border: 1px solid green;
+    }
+
+    #custom-div>div {
+        width: 100%;
+        height: 80px;
+        border: 1px solid orange;
+        margin-bottom: 10px;
+    }
+    #coverage{
+        display: flex;
+        justify-content: space-between;
+    }
+    #side-news-pic img{
+        width: 3rem;
+    }
+    #sideNews{
+        display: flex;
+        justify-content: space-between;
+    }
