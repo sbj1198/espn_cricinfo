@@ -1,0 +1,189 @@
+{
+    "scorecard": [
+        {
+            "id": 1,
+            "league_name": "Maharaja T20",
+            "venue": "Bangalore",
+            "team1": "HT",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/343800/343858.png",
+            "team2": "MYSW",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313496.logo.png",
+            "status": {
+                "completed": {
+                    "result": "Mysuru-W won by 5 wickets (with 5 balls remaining)",
+                    "score1": "164/7",
+                    "score2": "166/5"
+                },
+                "not_completed": {
+                    "start_status": false,
+                    "start_time": false
+                }
+            }
+        },
+        {
+            "id": 2,
+            "league_name": "Asia Cup QLF",
+            "venue": "Al Amerat",
+            "team1": "Kuwait",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313158.logo.png",
+            "team2": "Singapore",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313144.logo.png",
+            "status": {
+                "completed": {
+                    "result": false,
+                    "score1": false,
+                    "score2": false
+                },
+                "not_completed": {
+                    "start_status": "Match yet to begin",
+                    "start_time": "Today, 5:30 PM"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "league_name": "Maharaja T20",
+            "venue": "Bengaluru",
+            "team1": "BB",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/343800/343852.png",
+            "team2": "GM",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/343800/343854.png",
+            "status": {
+                "completed": {
+                    "result": "Blasters won by 44 runs",
+                    "score1": "227/3",
+                    "score2": "183"
+                },
+                "not_completed": {
+                    "start_status": false,
+                    "start_time": false
+                }
+            }
+        },
+        {
+            "id": 4,
+            "league_name": "6IXTY (W)",
+            "venue": "Basseterre",
+            "team1": "Barbados Royals Women",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/325900/325974.png",
+            "team2": "Trinbago Knight Riders Women",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313485.logo.png",
+            "status": {
+                "completed": {
+                    "result": false,
+                    "score1": false,
+                    "score2": false
+                },
+                "not_completed": {
+                    "start_status": "Match yet to begin",
+                    "start_time": "Today, 7:30 PM"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "league_name": "Asia Cup QLF",
+            "venue": "Al Amerat",
+            "team1": "Hong Kong",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313140.logo.png",
+            "team2": "United Arab Emirates",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313147.logo.png",
+            "status": {
+                "completed": {
+                    "result": false,
+                    "score1": false,
+                    "score2": false
+                },
+                "not_completed": {
+                    "start_status": "Match yet to begin",
+                    "start_time": "Today, 9:30 PM"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "league_name": "Men's Hundred T20",
+            "venue": "Lord's",
+            "team1": "London Spirit (Men)",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317100/317119.png",
+            "team2": "Welsh Fire (Men)",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317100/317110.jpg",
+            "status": {
+                "completed": {
+                    "result": false,
+                    "score1": false,
+                    "score2": false
+                },
+                "not_completed": {
+                    "start_status": "Match yet to begin",
+                    "start_time": "Today, 11:00 PM"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "league_name": "6IXTY (W)",
+            "venue": "Basseterre",
+            "team1": "Guyana Amazon Warriors Women",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313482.logo.png",
+            "team2": "Trinbago Knight Riders Women",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313485.logo.png",
+            "status": {
+                "completed": {
+                    "result": false,
+                    "score1": false,
+                    "score2": false
+                },
+                "not_completed": {
+                    "start_status": "Match yet to begin",
+                    "start_time": "Today, 10:00 PM"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "league_name": "6IXTY (W)",
+            "venue": "Basseterre",
+            "team1": "Barbados Royals Women",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/325900/325974.png",
+            "team2": "Guyana Amazon Warriors Women",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313482.logo.png",
+            "status": {
+                "completed": {
+                    "result": false,
+                    "score1": false,
+                    "score2": false
+                },
+                "not_completed": {
+                    "start_status": "Match yet to begin",
+                    "start_time": "Tomorrow, 12:30 AM"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "league_name": "2nd ODI",
+            "venue": "Amstelveen",
+            "team1": "Ireland Women",
+            "team1_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/156800/156800.png",
+            "team2": "Netherlands Women",
+            "team2_img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313136.logo.png",
+            "status": {
+                "completed": {
+                    "result": "Mysuru-W won by 5 wickets (with 5 balls remaining)",
+                    "score1": "249/2",
+                    "score2": null
+                },
+                "not_completed": {
+                    "start_status": "Neth Women chose to field.",
+                    "start_time": ""
+                }
+            }
+        }
+    ],
+    "news": {
+        "headline": {
+            "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_960/lsci/db/PICTURES/CMS/344600/344698.4.jpg"
+        }
+    }
+}
