@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f1831153cc.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,139 +18,92 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="sub-top-navbar">
-      <div>
-        <img
-          src="https://wassets.hscicdn.com/static/images/logo.png"
-          alt="ESPN loog"
-        />
-      </div>
-      <div>
-        <div class="dropdown">
-          <button class="dropdown-btn">Live Scores</button>
-          <div class="dropdown-content-1">
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-          </div>
+    <div id="navbar-container"></div>
+    <div id="container">
+      <div id="container-left">
+        <div id="asksection">
+          <img
+            src="https://wassets.hscicdn.com/static/images/nlp-logo.svg"
+            alt=""
+          />
+          <p
+            >What is Joe Root's batting average against Kagiso Rabada in
+            Tests?</p
+          >
+          <button
+            ><span
+              ><i
+                style="color: #3ebdf6"
+                class="fa-solid fa-magnifying-glass fa-xl"
+              ></i
+            ></span>
+            Ask a question</button
+          >
         </div>
-        <div class="dropdown">
-          <button class="dropdown-btn">Series</button>
-          <div class="dropdown-content-2">
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
+        <div id="key-series">
+          <p>Key Series</p>
+          <hr />
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>Asia Cup QLF</p>
           </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropdown-btn">Teams</button>
-          <div class="dropdown-content-3">
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Live Scores Home</a>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>Asia Cup</p>
           </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropdown-btn">News</button>
-          <div class="dropdown-content-4">
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Live Scores Home</a>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>England v South Africa</p>
           </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropdown-btn">Features</button>
-          <div class="dropdown-content-5">
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">Live Scores Home</a>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>Australia v Zimbabwe</p>
           </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropdown-btn">Videos</button>
-          <div class="dropdown-content-6">
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>NZ-A in IND</p>
           </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropdown-btn">Stats</button>
-          <div class="dropdown-content-7">
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
-            <a href="#">International calendar</a>
-            <a href="#">Desktop Scoreboard</a>
-            <a href="#">Live Scores Home</a>
-            <a href="#">Week view</a>
-            <a href="#">Month view</a>
-            <a href="#">Season view</a>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>The Hundred (M)</p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>The Hundred (W)</p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>County Div1</p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>County Div2 </p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>6IXTY (M)</p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>6IXTY (W)</p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>Women's Championship</p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>World Test Championship</p>
+          </div>
+          <div>
+            <i style="color: #3ebdf6" class="fa-solid fa-angle-right"></i>
+            <p>World Cup Super League</p>
           </div>
         </div>
       </div>
-      <div>
-        <div class="fantasy-logo">
-          <img src="" alt="" />
-          <button></button>
-        </div>
-        <div class="dropdown"></div>
-        <div class="theme-logo"></div>
-        <div class="notifications-logo"></div>
-        <div class="dropdown"></div>
-        <div class="dropdown"></div>
-        <div class="search-logo"></div>
-      </div>
+      <div id="container-center"></div>
+      <div id="container-right"></div>
     </div>
   </body>
+  <script src="./scripts/index.js" type="module"></script>
 </html>
