@@ -1,12 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: BentonSans,Arial,Noto Sans,sans-serif;
-    font-size: 16px;
-}
 #navbar{
-    height: 40px;
-    background-color: rgb(0, 204, 255);
+    height:8vh;
 }
 #parent{
     display: flex;
@@ -18,8 +11,8 @@ body{
     width: 36%;
     margin: 0 auto;
 }
-h1{
-    margin-top: 5%;
+h1,h2{
+    margin: 3% auto;
 }
 h1+p{
     margin-bottom: 8vh;
@@ -38,7 +31,7 @@ input{
     border: none;
     text-align: center;
 }
-button{
+#verify{
     display: block;
     width: 88%;
     height: 8vh;
@@ -63,7 +56,7 @@ button{
     background-size: cover;
     height:91vh;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
 }
 .img{
     margin: auto;

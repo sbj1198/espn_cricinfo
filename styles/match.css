@@ -1,12 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: BentonSans,Arial,Noto Sans,sans-serif;
-    font-size: 16px;
-}
 #navbar{
-    height: 40px;
-    background-color: rgb(0, 204, 255);
+    height:8vh;
 }
 #parent{
     display: flex;
@@ -19,13 +12,16 @@ body{
     margin: 0 auto;
     border: 1px solid ;
 }
+h1,h2{
+    margin: 3% auto;
+}
 #tpnv{
     display: flex;
     justify-content: space-around;
     height: 8vh;
     width: 100%;
-    border: 1px solid;
     background-color: #5217b0;
+    border-bottom: 1px solid #5217b0;
 }
 #tpnv>div:nth-child(1){
     background-color: white;
@@ -35,7 +31,7 @@ body{
 #name{
     margin: 15px;
 }
-#tpnv>div>img{
+#tpnv>div>a>img{
     height: 100%;
 }
 #fantasy{
@@ -58,7 +54,7 @@ span{
     background-size: cover;
     height:91vh;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
 }
 .img{
     margin: auto;

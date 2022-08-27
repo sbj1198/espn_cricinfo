@@ -1,12 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: BentonSans,Arial,Noto Sans,sans-serif;
-    font-size: 16px;
-}
+
 #navbar{
-    height: 40px;
-    background-color: rgb(0, 204, 255);
+    height:8vh;
 }
 #parent{
     display: flex;
@@ -18,7 +12,9 @@ body{
     width: 36%;
     margin: 0 auto;
 }
-
+h1,h2{
+    margin: 3% auto;
+}
 h1+p{
     margin-bottom: 8vh;
     font-size: 17px;
@@ -32,7 +28,7 @@ input{
     background-color: rgba(128, 128, 128, 0.199);
     border: none;
 }
-button{
+#login_btn{
     display: block;
     margin: 5vh auto  8vh auto;
     padding: 3vh 0;
@@ -45,14 +41,14 @@ button{
     background-color:#5217b0;
     cursor: pointer;
 }
-button:hover{
+#login_btn:hover{
     background-color: #ff0000c7;
 }
-#part1 button+p{
+#part1 #login_btn+p{
     font-weight: bolder;
     color: grey;
 }
-#part1 button+p>a{
+#part1 #login_btn+p>a{
     font-weight: bolder;
     color: #ff0000;;
 }
@@ -67,7 +63,7 @@ button:hover{
     background-size: cover;
     height:91vh;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
 }
 .img{
     margin: auto;

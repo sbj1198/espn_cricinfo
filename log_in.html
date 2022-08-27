@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/f1831153cc.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Wonderwins Cricket</title>
         <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
     <link rel="stylesheet" href="styles/log_in.css">
-    <!-- <link rel="stylesheet" href="styles/index.css"> -->
+    <link rel="stylesheet" href="styles/index.css">
+    
 </head>
 <body>
     <div id="navbar">
@@ -48,6 +53,7 @@
 </script>
 
 <script type="module">
-    // let navbar = document.getElementById("navbar");
-    // import subtopnavbar from "./scripts/subtopnavbar.js"
+    let navbar = document.getElementById("navbar");
+    import subtopnavbar from "./components/subtopnavbar.js"
+    navbar.innerHTML = subtopnavbar()
 </script>
