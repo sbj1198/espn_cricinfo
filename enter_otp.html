@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderwins Cricket</title>
+        <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
+    <link rel="stylesheet" href="styles/enter_otp.css">
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="parent">
+        <div id="part1">
+                <h1>
+                    Enter Veification code
+                </h1>
+                <p>
+                    Please Enter OTP Which You Received On Your Last <br>
+                    Entered Mobile Number
+                </p>
+                <h2>Enter OTP Success</h2>
+                <input type="number" placeholder="Enter OTP" id="OTP">
+                <button id="verify" onclick="Verify()">Verify</button>
+        </div>
+    
+        <div id="part2">
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="scripts/enter_otp.js"></script>
+<script type="module">
+    let Part2 = document.getElementById("part2");
+    import part2  from "./scripts/part2.js"
+    Part2.innerHTML = part2
+</script>
