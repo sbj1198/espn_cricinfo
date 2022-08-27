@@ -127,7 +127,7 @@ function subTopNavbar() {
         src="https://wassets.hscicdn.com/static/images/fantasy-home.png"
         alt="Fantasy logo"
       />
-      <button>Fantasy</button>
+      <button id="fantasy-logo-btn">Fantasy</button>
     </div>
     <div class="dropdown">
       <button class="dropdown-btn">Edition IN</button>
