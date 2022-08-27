@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: BentonSans,Arial,Noto Sans,sans-serif;
+    font-size: 16px;
+}
+#navbar{
+    height: 40px;
+    background-color: rgb(0, 204, 255);
+}
+#parent{
+    display: flex;
+    border: 1px solid;
+    text-align: center;
+}
+/* part 1 */
+#part1{
+    width: 36%;
+    margin: auto;
+}
+.img{
+    margin: auto;
+    text-align: center;
+}
+.img>img{
+    width: 18vh;
+}
+#email, #num{
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 2vh 0px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+#email{
+    margin-top: 5vh;
+    color: #ff0000;
+    background-color: white;
+    border: 1px solid #ff0000;
+}
+email:hover{
+    color: white;
+    background-color: #ff0000;
+}
+#num{
+    margin-top: 3vh;
+    color: white;
+    background-color: #5217b0;
+    border: none;
+}
+#num:hover{
+    color: white;
+    background-color: #ff0000;
+}
+#part1>p:nth-child(4){
+    margin-top: 6vh;
+}
+#part1>p:nth-child(5){
+    margin-top: 4vh;
+    letter-spacing: -0.2px;
+    word-spacing: 1px;
+    line-height: 3vh;
+}
+#part1>p>span{
+    font-weight: bolder;
+    color: #8d8eb3;
+}
+#part1>p>a{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* part 2 */
+#part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64%;
+    margin: auto;
+    background-image: url("https://i2-prod.mirror.co.uk/incoming/article10871802.ece/ALTERNATES/s1200d/Surrey-v-Essex-Eagles-NatWest-T20-Blast-BESTPIX.jpg");
+    background-size: cover;
+    height:91vh;
+    color: white;
+    font-size: 22px;
+}
+.img{
+    margin: auto;
+    text-align: center;
+}
+.img>img{
+    width: 18vh;
+}
+#part2 span{
+    color: #F9DC1C;
+}
+#part2 a>img{
+    width: 25vh;
+    margin: 0 3px;
+}
+
+@media all and (min-width:320px) and (max-width:890px)
+{
+    #parent{
+        background-image: url("https://i2-prod.mirror.co.uk/incoming/article10871802.ece/ALTERNATES/s1200d/Surrey-v-Essex-Eagles-NatWest-T20-Blast-BESTPIX.jpg");
+        background-size: cover;
+        height:91vh;
+    }
+    .img{
+        margin-top: 18vh;
+    }
+    .img>img{
+        width: 15vh;
+    }
+    #part1{
+        background-color: white;
+        width: 80vh;
+        height: 91vh;
+        font-size: 14px;
+    }
+    #part2{
+        display: none;
+    }
+}

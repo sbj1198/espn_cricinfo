@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderwins Cricket</title>
+        <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
+    <link rel="stylesheet" href="styles/sign_up.css">
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="parent">
+        <div id="part1">
+                <h1>
+                    Sign up
+                </h1>
+                <p>
+                    Please Enter Your Details
+                </p>
+                <input type="button" value="ESPNWNDWNS"  style="text-align: left;">
+                <input type="email" placeholder="Email Address" id="email">
+                <input type="password" placeholder="Password must have 8 character" id="password">
+                <input type="checkbox"  value="true" id="check" onclick="button_change()">
+                <label>
+                    I have read all Terms & Conditions and Privacy Policy for <br>
+                    WonderWins 
+                </label>
+                <button id="signup_btn" onclick="Sign_up()">Sign Up</button>
+                <p>
+                    Already Have An Account
+                    <a href="log_in.html">Login Now</a>
+                </p>
+        </div>
+    
+        <div id="part2">
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="scripts/sign_up.js"></script>
+<script type="module">
+    let Part2 = document.getElementById("part2");
+    import part2  from "./scripts/part2.js"
+    Part2.innerHTML = part2
+</script>
