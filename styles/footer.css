@@ -1,0 +1,27 @@
+#footer{
+    /* border: 1px solid blue; */
+    border-radius: 1vw;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;;
+    margin: auto;
+    margin-top: 3vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  #footer>div>p:nth-child(1){
+   font-size: 20px;
+   font-weight: bold;
+   text-decoration: underline;
+   text-decoration-color: #EDEEF0;
+  }
+
+#lastC{
+width: 100vw;
+margin: auto;
+margin-top: 1vw;
+display: flex;
+justify-content:space-around;
+background-color: #EDEEF0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

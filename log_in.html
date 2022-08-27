@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wonderwins Cricket</title>
         <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
-    <link rel="stylesheet" href="style/log_in.css">
+    <link rel="stylesheet" href="styles/log_in.css">
+    <!-- <link rel="stylesheet" href="styles/index.css"> -->
 </head>
 <body>
     <div id="navbar">
@@ -17,10 +18,10 @@
             <div class="img">
                 <img src="https://espn.wonderwins.com/assets/images/logo.png" alt="">
             </div>
-            <button>
+            <button onclick="Email()" id="email">
                 Login with Email
             </button>
-            <button>
+            <button onclick="Mobile_Number()" id="num">
                 Login with Mobile Number
             </button>
             <p>
@@ -39,10 +40,14 @@
     </div>
 </body>
 </html>
-
-<script src="log_in.js"></script>
+<script src="scripts/log_in.js"></script>
 <script type="module">
     let Part2 = document.getElementById("part2");
-    import part2  from "./part2.js"
+    import part2  from "./scripts/part2.js"
     Part2.innerHTML = part2
+</script>
+
+<script type="module">
+    // let navbar = document.getElementById("navbar");
+    // import subtopnavbar from "./scripts/subtopnavbar.js"
 </script>

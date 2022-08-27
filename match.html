@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderwins Cricket</title>
+        <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
+    <link rel="stylesheet" href="styles/match.css">
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="parent">
+        <div id="part1">
+            <div id="tpnv">
+                <div><p id="name"></p></div>
+                <div><img id="logo" src="https://espn.wonderwins.com/assets/images/main_logo.png" alt=""></div>
+            </div>
+            <div id="fantasy">
+                <h1>Welcome To
+                    <span>Fantasy</span>  League</h1>
+            </div>
+        </div>
+    
+        <div id="part2">
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="module">
+    let Part2 = document.getElementById("part2");
+    import part2  from "./scripts/part2.js"
+    Part2.innerHTML = part2
+</script>
+
+<script>
+    let Profile_Info = JSON.parse(localStorage.getItem("Profile_Info"));
+// alert(Profile_Info)
+let Name = document.getElementById("name");
+Name.innerText = Profile_Info.team_name;
+</script>

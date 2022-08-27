@@ -15,62 +15,68 @@ body{
 }
 /* part 1 */
 #part1{
-    border: 1px solid;
     width: 36%;
-    margin: 0 auto;
+    margin: auto;
 }
-h1{
-    font-size: 24px;
+.img{
+    margin: auto;
+    text-align: center;
 }
-h1+p{
-    margin-bottom: 8vh;
-    font-size: 17px;
-    color: grey;
+.img>img{
+    width: 18vh;
 }
-input:nth-child(3),input:nth-child(4),input:nth-child(5){
+#email, #num{
     display: block;
-    margin: 3vh auto;
-    height: 8vh;
-    width: 88%;
-    background-color: rgba(128, 128, 128, 0.199);
-    border: none;
-}
-label{
-    font-size: 15px;
-    color: rgb(54, 54, 54);
-    line-height: 20px;
-}
-button{
-    display: block;
-    margin: 5vh auto  8vh auto;
-    padding: 3vh 0;
+    margin: auto;
     width: 90%;
-    border: none;
+    padding: 2vh 0px;
+    font-weight: bold;
     border-radius: 4px;
-    font-weight: bolder;
-    font-size: 16px;
+}
+#email{
+    margin-top: 5vh;
+    color: #ff0000;
+    background-color: white;
+    border: 1px solid #ff0000;
+}
+email:hover{
     color: white;
-    background-color: rgba(88, 87, 87, 0.945);
+    background-color: #ff0000;
 }
-button:hover{
-    cursor:not-allowed;
-    background-color: #ff0000c7;
+#num{
+    margin-top: 3vh;
+    color: white;
+    background-color: #5217b0;
+    border: none;
 }
-#part1 button+p{
+#num:hover{
+    color: white;
+    background-color: #ff0000;
+}
+#part1>p:nth-child(4){
+    margin-top: 6vh;
+}
+#part1>p:nth-child(5){
+    margin-top: 4vh;
+    letter-spacing: -0.2px;
+    word-spacing: 1px;
+    line-height: 3vh;
+}
+#part1>p>span{
     font-weight: bolder;
-    color: grey;
+    color: #8d8eb3;
 }
-#part1 button+p>a{
-    font-weight: bolder;
-    color: #ff0000;;
+#part1>p>a{
+    font-weight: bold;
+    color: #ff0000;
 }
+
 /* part 2 */
 #part2{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 64%;
-    border: 1px solid sienna;
     margin: auto;
     background-image: url("https://i2-prod.mirror.co.uk/incoming/article10871802.ece/ALTERNATES/s1200d/Surrey-v-Essex-Eagles-NatWest-T20-Blast-BESTPIX.jpg");
     background-size: cover;
