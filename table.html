@@ -6,12 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script
+    src="https://kit.fontawesome.com/f1831153cc.js"
+    crossorigin="anonymous"
+  ></script>
     <link rel="stylesheet" href="./styles/card.css">
     <link rel="stylesheet" href="./styles/table1.css">
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
+
 </head>
 
 <body>
     <div id="topcardNav"></div>
+    <div id="mainNavc"></div>
     <div id="adDiv">
         <img src="https://tpc.googlesyndication.com/simgad/11321537340682502286?" alt="">
     </div>
@@ -469,11 +477,26 @@
         </div>
 
     </div>
+    <div id="footer"></div>
+    <div id="lastC">
+        <p>"Terms of Use   •   Privacy Policy   •   Interest-Based Ads   •   Addendum to the Global Privacy Policy    •   Feedback"</p>
+        <p>© 2022 ESPN Sports Media Ltd. All rights reserved</p>
+    </div>
 </body>
 
 </html>
+<!-- sub navbar -->
+<script src="./scripts/index.js" type="module"></script>
+
+<!-- top navbar -->
 <script type="module">
+    
     let nav = document.getElementById('topcardNav');
+    let mainnav = document.getElementById('mainNavc');
+
+    import subTopNavbar from './components/subtopnavbar.js'
+    mainnav.innerHTML = subTopNavbar()
+
 
     import navbar from './components/topnav.js'
     nav.innerHTML = navbar()
@@ -482,4 +505,11 @@
     // console.log(cardJS)
 
     cardJS()
+</script>
+<!-- Footer -->
+<script type="module">
+    
+    import footerJS from './components/footer.js'
+   
+    footerJS()
 </script>
