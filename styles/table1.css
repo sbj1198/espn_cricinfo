@@ -84,14 +84,22 @@ table img {
     justify-content: space-around;
 }
 
-.ads_sec {
+.ads_sec1,.ads_sec2,.ads_sec3,.ads_sec4 {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    /* margin-bottom: 15px; */
+    /* margin-top: 5vw; */
+}
+.ads_sec3{
+    margin-top: 20px;
 }
 
-.ads_sec img {
-    width: 25vw;
+.ads_sec2 img, .ads_sec4 img {
+    width: 15vw;
+}
+.ads_sec1 img, .ads_sec3 img {
+    width: 20vw;
 }
 
 .adInfo {
@@ -101,23 +109,24 @@ table img {
 .adInfo>p{
     font-size: 10px;
 }
+.adspara{
+    font-size: 15px;
+}
 
 .ads_sec2 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: -6vw;
+    margin-bottom: -1vw;
 }
 
-.ads_sec2 img {
-    width: 16.5vw;
-}
 
 #adDiv {
     width: 70%;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: auto;
 }
-.ads_sec button{
+.ads_sec1 button,.ads_sec2 button,
+.ads_sec3 button, .ads_sec4 button{
 
 
     font-size: 10px;
@@ -129,24 +138,17 @@ table img {
     background-color: white;
     
 }
-.ads_sec2 button{
-    font-size: 10px;
-    line-height: 13.2px;
-    border: 1px solid;
-    
-    border-color: #999999;
-    border-radius: 10px;
-    background-color: white;
 
-}
 #adDiv img {
     width: 100%;
 }
 
+
 #main-page {
     width: 80%;
     /* border: 1px solid; */
-    height: 2000px;
+    /* height: 2000px; */
+    /* height: auto; */
     margin: auto;
     margin-top: 20px;
     display: flex;
@@ -162,7 +164,7 @@ table img {
 #main-page>div:nth-child(2) {
     width: 28%;
     /* border: 1px solid red; */
-    height: 2000px;
+    /* height: 2000px; */
 }
 
 #custom-div {
