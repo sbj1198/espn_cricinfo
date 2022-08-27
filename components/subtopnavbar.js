@@ -2,10 +2,10 @@ function subTopNavbar() {
   return `
   <div class="sub-top-navbar">
   <div>
-    <img
-      src="https://wassets.hscicdn.com/static/images/logo.png"
-      alt="ESPN loog"
-    />
+  <img
+  src="https://wassets.hscicdn.com/static/images/logo.png"
+  alt="ESPN loog"
+/>
   </div>
   <div>
     <div class="dropdown">
