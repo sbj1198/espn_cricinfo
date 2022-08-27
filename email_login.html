@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderwins Cricket</title>
+        <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
+    <link rel="stylesheet" href="styles/email_login.css">
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="parent">
+        <div id="part1">
+                <h1>
+                    Log in
+                </h1>
+                <p>
+                    Please Enter Your Registered Email Id And <br>
+                    Password
+                </p>
+                <input type="email" placeholder="jhonedoe@gmail.com" id="email">
+                <input type="password" placeholder="Password" id="password">
+                <button id="login_btn" onclick="Log_in()">Login</button>
+                <p>
+                   Don't Have An Account
+                    <a href="signup.html">Sign Up</a>
+                </p>
+        </div>
+    
+        <div id="part2">
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="scripts/email_login.js"></script>
+<script type="module">
+    let Part2 = document.getElementById("part2");
+    import part2  from "./scripts/part2.js"
+    Part2.innerHTML = part2
+</script>
