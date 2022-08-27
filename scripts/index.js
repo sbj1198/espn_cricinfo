@@ -13,10 +13,12 @@ fantasyLogoBtn.addEventListener("click", () => {
   window.location.href = "../log_in.html";
 });
 
-let ifooter = document.getElementById("ifooter");
+let d4 = document.getElementById("drop-news-4");
+d4.addEventListener("click", () => {
+  window.location.href = "../News.html";
+});
 
-ifooter.innerHTML = footer();
-let navlogo = document.getElementById("sub-top-navbar-espn-logo");
-navlogo.addEventListener("click", () => {
-  window.location.href = "../index.html";
+let news1 = document.getElementById("ahn");
+news1.addEventListener("click", () => {
+  window.location.href = "../news1.html";
 });

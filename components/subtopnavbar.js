@@ -66,7 +66,7 @@ function subTopNavbar() {
       </div>
     </div>
     <div class="dropdown">
-      <button class="dropdown-btn">News</button>
+      <button id="drop-news-4" class="dropdown-btn">News</button>
       <div class="dropdown-content-4">
         <a href="#">Week view</a>
         <a href="#">Month view</a>
