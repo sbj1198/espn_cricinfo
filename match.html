@@ -16,7 +16,11 @@
         <div id="part1">
             <div id="tpnv">
                 <div><p id="name"></p></div>
-                <div><img id="logo" src="https://espn.wonderwins.com/assets/images/main_logo.png" alt=""></div>
+                <div>
+                    <a href="log_in.html">
+                        <img id="logo" src="https://espn.wonderwins.com/assets/images/main_logo.png" alt="">
+                    </a>
+                </div>
             </div>
             <div id="fantasy">
                 <h1>Welcome To
@@ -41,4 +45,10 @@
 // alert(Profile_Info)
 let Name = document.getElementById("name");
 Name.innerText = Profile_Info.team_name;
+</script>
+
+<script type="module">
+    let navbar = document.getElementById("navbar");
+    import subtopnavbar from "./components/subtopnavbar.js"
+    navbar.innerHTML = subtopnavbar()
 </script>

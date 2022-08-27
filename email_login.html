@@ -7,6 +7,7 @@
     <title>Wonderwins Cricket</title>
         <link rel="icon" type="image/x-icon"  href="https://png.pngtree.com/background/20210714/original/pngtree-simple-light-blue-background-picture-image_1219004.jpg">
     <link rel="stylesheet" href="styles/email_login.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <div id="navbar">
@@ -22,7 +23,7 @@
                     Password
                 </p>
                 <input type="email" placeholder="jhonedoe@gmail.com" id="email">
-                <input type="password" placeholder="Password" id="password">
+                <input type="password" placeholder="Password must have 8 character" id="password">
                 <button id="login_btn" onclick="Log_in()">Login</button>
                 <p>
                    Don't Have An Account
@@ -41,4 +42,10 @@
     let Part2 = document.getElementById("part2");
     import part2  from "./scripts/part2.js"
     Part2.innerHTML = part2
+</script>
+
+<script type="module">
+    let navbar = document.getElementById("navbar");
+    import subtopnavbar from "./components/subtopnavbar.js"
+    navbar.innerHTML = subtopnavbar()
 </script>
