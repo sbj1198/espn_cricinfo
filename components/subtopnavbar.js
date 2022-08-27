@@ -1,7 +1,7 @@
 function subTopNavbar() {
   return `
   <div class="sub-top-navbar">
-  <div>
+  <div id="sub-top-navbar-espn-logo">
   <img
   src="https://wassets.hscicdn.com/static/images/logo.png"
   alt="ESPN loog"

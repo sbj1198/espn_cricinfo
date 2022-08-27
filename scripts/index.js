@@ -16,3 +16,7 @@ fantasyLogoBtn.addEventListener("click", () => {
 let ifooter = document.getElementById("ifooter");
 
 ifooter.innerHTML = footer();
+let navlogo = document.getElementById("sub-top-navbar-espn-logo");
+navlogo.addEventListener("click", () => {
+  window.location.href = "../index.html";
+});
