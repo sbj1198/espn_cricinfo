@@ -292,7 +292,7 @@ body {
 #container {
   width: 100vw;
   max-width: 100%;
-  height: 900px;
+  /* height: 900px; */
   border: 1px solid red;
   display: flex;
   justify-content: space-around;
@@ -314,8 +314,11 @@ body {
 }
 #container-right {
   width: 300px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
 }
 #asksection {
@@ -352,36 +355,75 @@ body {
   cursor: pointer;
   background-color: #cceefd;
 }
-#key-series {
+#key-series,
+#quick-links,
+#espncricinfo-apps,
+#follow-espncricinfo,
+#espn-sites,
+#news-headlines,
+#image-news {
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
+  margin-bottom: 20px;
   /* justify-content: center; */
 }
-#key-series > p {
-  font-size: 14px;
+#image-news {
+  padding: 14px;
+}
+#key-series > p,
+#quick-links > p,
+#espncricinfo-apps > p,
+#follow-espncricinfo > p,
+#espn-sites > p,
+#news-headlines > p {
+  font-size: 12px;
   font-weight: bold;
   margin-left: 10px;
   padding: 10px 0;
 }
-#key-series > div {
+#key-series > div,
+#quick-links > div,
+#espncricinfo-apps > div,
+#follow-espncricinfo > div,
+#espn-sites > div,
+#news-headlines > div {
   display: flex;
   /* margin-left: 16px; */
   /* margin-top: 16px; */
   padding: 10px;
   column-gap: 20px;
 }
-#key-series > div > p {
+#key-series > div > p,
+#quick-links > div > p,
+#espncricinfo-apps > div > p,
+#follow-espncricinfo > div > p,
+#espn-sites > div > p,
+#news-headlines > div > p {
   color: rgb(87, 86, 86);
   font-size: 14px;
 }
-#key-series > div:hover {
+#image-news > div > p {
+  font-size: 14px;
+  color: rgb(87, 86, 86);
+  margin-top: 10px;
+}
+#key-series > div:hover,
+#quick-links > div:hover,
+#espncricinfo-apps > div:hover,
+#follow-espncricinfo > div:hover,
+#espn-sites > div:hover,
+#news-headlines > div:hover {
   cursor: pointer;
   background-color: #cceefd;
 }
 hr {
   border-top: 0.1px solid lightgray;
+}
+#image-news > div > img {
+  width: 100%;
+  border-radius: 8px;
 }
