@@ -25,7 +25,7 @@ body{
 .img>img{
     width: 18vh;
 }
-button{
+#email, #num{
     display: block;
     margin: auto;
     width: 90%;
@@ -33,23 +33,23 @@ button{
     font-weight: bold;
     border-radius: 4px;
 }
-button:nth-child(2){
+#email{
     margin-top: 5vh;
     color: #ff0000;
     background-color: white;
     border: 1px solid #ff0000;
 }
-button:nth-child(2):hover{
+email:hover{
     color: white;
     background-color: #ff0000;
 }
-button:nth-child(3){
+#num{
     margin-top: 3vh;
     color: white;
     background-color: #5217b0;
     border: none;
 }
-button:nth-child(3):hover{
+#num:hover{
     color: white;
     background-color: #ff0000;
 }
