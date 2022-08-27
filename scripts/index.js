@@ -5,6 +5,7 @@ import footer from "../components/footer.js";
 let navContainer = document.getElementById("navbar-container");
 navContainer.innerHTML = subTopNavbar();
 let tnav = document.getElementById("tnav");
+console.log(tnav);
 tnav.innerHTML = topnav();
 card();
 
@@ -17,7 +18,10 @@ let d4 = document.getElementById("drop-news-4");
 d4.addEventListener("click", () => {
   window.location.href = "../News.html";
 });
-
+let d5 = document.getElementById("drop-news-5");
+d5.addEventListener("click", () => {
+  window.location.href = "../features.html";
+});
 let news1 = document.getElementById("ahn-1");
 news1.addEventListener("click", () => {
   window.location.href = "../news1.html";
@@ -37,5 +41,9 @@ news4.addEventListener("click", () => {
 let news5 = document.getElementById("ahn-5");
 news5.addEventListener("click", () => {
   window.location.href = "../news5.html";
+});
+let espnLogo = document.getElementById("sub-top-navbar-espn-logo");
+espnLogo.addEventListener("click", () => {
+  window.location.href = "../index.html";
 });
 footer();
