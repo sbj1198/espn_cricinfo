@@ -2,10 +2,10 @@ function subTopNavbar() {
   return `
   <div class="sub-top-navbar">
   <div id="sub-top-navbar-espn-logo">
-  <img
+  <a href="./index.html" id="indexid"><img
   src="https://wassets.hscicdn.com/static/images/logo.png"
   alt="ESPN loog"
-/>
+/></a>
   </div>
   <div>
     <div class="dropdown">
@@ -66,7 +66,7 @@ function subTopNavbar() {
       </div>
     </div>
     <div class="dropdown">
-      <button id="drop-news-4" class="dropdown-btn">News</button>
+      <button id="drop-news-4" class="dropdown-btn"><a href="./News.html" id="indexNews">News</a></button>
       <div class="dropdown-content-4">
         <a href="#">Week view</a>
         <a href="#">Month view</a>
@@ -76,7 +76,7 @@ function subTopNavbar() {
       </div>
     </div>
     <div class="dropdown">
-      <button class="dropdown-btn">Features</button>
+      <button class="dropdown-btn"><a href="./features.html" id="indexFeatures">Features</a></button>
       <div class="dropdown-content-5">
         <a href="#">Week view</a>
         <a href="#">Month view</a>

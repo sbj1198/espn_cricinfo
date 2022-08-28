@@ -24,20 +24,30 @@ body {
 }
 .sub-top-navbar > div:nth-child(1) {
   /* width: 200px; */
+  /* border: 1px solid red; */
   margin: 0 60px;
   display: flex;
   flex-basis: 150px;
-  padding: 10px 0;
+  padding: 18px 0;
+  width: 120px;
+}
+#indexid{
+  /* border: 1px solid black; */
+  width: 100%;
 }
 .sub-top-navbar > div:nth-child(1) > img {
   width: 100%;
   height: auto;
   cursor: pointer;
 }
+#indexid>img{
+  width: 100%;
+}
 .sub-top-navbar > div:nth-child(2) {
   /* width: 500px; */
+   /* border: 1px solid black; */
   display: flex;
-  flex-basis: 525px;
+  flex-basis: 555px;
   justify-content: space-between;
   align-items: center;
 }
@@ -119,6 +129,12 @@ body {
   display: grid;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 5px;
+}
+#indexNews{
+  color: white;
+}
+#indexFeatures{
+  color: white;
 }
 .dropdown-content-4 {
   width: 270px;
@@ -376,6 +392,7 @@ body {
 #espn-sites,
 #news-headlines,
 #image-news {
+  /* border: 1px solid red; */
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -394,10 +411,12 @@ body {
 #follow-espncricinfo > p,
 #espn-sites > p,
 #news-headlines > p {
-  font-size: 12px;
+  /* border: 1px solid blue; */
+  font-size: 16px;
   font-weight: bold;
   margin-left: 10px;
   padding: 10px 0;
+  margin-bottom: 0px;
 }
 #key-series > div,
 #quick-links > div,
@@ -410,6 +429,7 @@ body {
   /* margin-top: 16px; */
   padding: 4px;
   column-gap: 20px;
+  /* border: 2px solid green; */
 }
 #key-series > div > p,
 #quick-links > div > p,
@@ -419,6 +439,7 @@ body {
 #news-headlines > div > p {
   color: rgb(87, 86, 86);
   font-size: 14px;
+  margin-top: 0px;
 }
 #image-news > div > p {
   font-size: 14px;
