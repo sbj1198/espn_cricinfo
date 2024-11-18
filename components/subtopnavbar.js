@@ -3,7 +3,8 @@ function subTopNavbar() {
   <div class="sub-top-navbar">
   <div id="sub-top-navbar-espn-logo">
   <a href="./index.html" id="indexid"><img
-  src="https://wassets.hscicdn.com/static/images/logo.png"
+ 
+ src="https://wassets.hscicdn.com/static/images/logo.png"
   alt="ESPN loog"
 /></a>
   </div>
