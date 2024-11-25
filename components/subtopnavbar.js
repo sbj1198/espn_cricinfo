@@ -42,6 +42,7 @@ function subTopNavbar() {
     </div>
     <div class="dropdown">
       <button class="dropdown-btn">Teams</button>
+
       <div class="dropdown-content-3">
         <a href="#">Month view</a>
         <a href="#">Season view</a>
